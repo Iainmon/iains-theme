@@ -1,0 +1,21 @@
+{
+    "name": "iains-theme",
+    "displayName": "Iain's Theme",
+    "description": "Iain's Really Cool Color Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iain's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Iain's Theme-color-theme.json"
+            }
+        ]
+    }
+}
