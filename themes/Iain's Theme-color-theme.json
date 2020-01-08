@@ -117,7 +117,7 @@
 		{
 			"name": "Function Declaration",
 			"scope": [
-				//"entity.name.function",
+				"meta.block entity.name.function",
 				"meta.function entity.name.function",
 				//"entity.name.method"
 			],
@@ -139,6 +139,9 @@
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other",
+				//"meta.block",
+				"source.glsl"
+
 			],
 			"settings": {
 				"foreground": "#fce6bb"
@@ -305,6 +308,15 @@
 			],
 			"settings": {
 				"foreground": "#82d1ff" // #82d1ff
+			}
+		},
+		{
+			"name": "C Function Calling",
+			"scope": [
+				"meta.function-call.c entity.name.function",
+			],
+			"settings": {
+				"foreground": "#43b0e2" // #82d1ff
 			}
 		},
 		{
