@@ -24,6 +24,7 @@
 			"scope": [
 				"variable",
 				"support.variable",
+				"entity.name.variable",
 				"variable.other",
 				"string constant.other.placeholder"
 			],
@@ -55,6 +56,7 @@
 			"scope": [
 				"keyword",
 				"keyword.control",
+				"keyword.other",
 				"storage.type",
 				"storage.modifier",
 				"storage.function"
@@ -119,6 +121,7 @@
 			"scope": [
 				"meta.block entity.name.function",
 				"meta.function entity.name.function",
+				"entity.name.function"
 				//"entity.name.method"
 			],
 			"settings": {
@@ -140,7 +143,8 @@
 			"scope": [
 				"meta.block variable.other",
 				//"meta.block",
-				"source.glsl"
+				"source.glsl",
+				"entity.name.variable.local"
 
 			],
 			"settings": {
@@ -167,7 +171,7 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				// "keyword.other"
 			],
 			"settings": {
 				"foreground": "#fce6bb" // #F78C6C
@@ -216,7 +220,8 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"entity.name.type.namespace"
 			],
 			"settings": {
 				"foreground": "#53eecc" // #FFCB6B
