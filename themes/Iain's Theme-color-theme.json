@@ -165,8 +165,8 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
 				//"constant.numeric",
-				"constant.language",
-				"support.constant",
+				//"constant.language",
+				// "support.constant",
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
@@ -175,6 +175,18 @@
 			],
 			"settings": {
 				"foreground": "#fce6bb" // #F78C6C
+			}
+		},
+		{
+			"name": "true/false/null ect.",
+			"scope": [
+				// "constant.language",
+				"constant.language",
+				"support.constant",
+				// "support.function",
+			],
+			"settings": {
+				"foreground": "#f07178" // #F78C6C
 			}
 		},
 		{
